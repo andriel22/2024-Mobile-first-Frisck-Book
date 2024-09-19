@@ -1,10 +1,10 @@
 @import url("reset.css");
 @import url("header.css");
-@import url(banner.css);
-@import url(carrosel.css);
+@import url("banner.css");
+@import url("carrosel.css");
 :root{
-    --cor-de-fundo: #ffffff;
-    --branco: #ff0202;
+    --cor-de-fundo: #ff0000;
+    --branco: #ff0000;
 }
 
 body{
