@@ -1,7 +1,7 @@
-.cabecalho__menu-hamburgue{
-    width: 34px;
-    height: 34px;
-    background-image: url(../img/menu.svg);
+.cabecalho__menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/Menu-hamburguer.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position:relative;
+    position: relative;
 }
 
 .caixa{
@@ -31,22 +31,25 @@
     width: 60vw;
 }
 
-.caixa__botao:checked~.lista-menu{
+.caixa__botao:checked~.lista-menu {
     display: block;
 }
 
 .lista-menu__titulo,
 .lista-menu__item{
     padding: 1em;
-    background-color:var(--green);
+    background-color: var(--branco);
 }
 
 .lista-menu__titulo{
-    color: var(--branco);
+    color: var(--laranja);
     font-weight: bold;
 }
 .lista-menu__link{
-    color: var(--yellow);
+    color: var(--azul);
     text-decoration: none;
     text-transform: uppercase;
+}
+.caixa__botao{
+    display: none;
 }
